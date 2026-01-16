@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="keyword" content="car , supper ,supercar"/>
+        <meta name="description" content=" this web site talks abuot supercars in the world"/>
+        <link rel="stylesheet" type="text/css" href="projictSupperCarSite.css"/>
+        <title>superscar</title>
+    </head>
+    <body ondragstart="return false" onselect="return false">
+       
+        <header>
+            <div class="title-h">
+                <p id="title" size="1.9em"></p>
+                <span>S</span><span>u</span><span>p</span><span>p</span><span>e</span><span>r</span><span> c</span><span>a</span><span>r</span><span>s</span>
+                <nav>
+                    <a href=""></a>
+
+                </nav>
+            </div>
+        </header>
+        <button onclick="checkage()" > click me </button>
+        <section class="info-car">
+            <div>
+                <img src="pictur-cars/2021-bugatti-chiron-super-sport-300.jpg" alt=""/>
+                <article>
+                    <span class="titleCar"> Bugatti chironsuper sport 300 + </span>
+                </article>
+            </div>
+            <div>
+                <img src="pictur-cars/koenigsegg-jesko-absolut.jpg"height="200px"
+                width="280px" alt=""/>
+                <article>
+                    <span class="titleCar"> Koenigsegg Jesko Absolut</span>
+                </article>
+            </div>
+            <div>
+                <img src="pictur-cars/mclaren-speedtail.jpg" alt=""/>
+                <article>
+                    <span class="titleCar">Mclaren speedtail</span>
+                </article>
+            </div>
+            <div>
+                <img src="pictur-cars/ferrari-SF90.jpg" alt=""/>
+                <article>
+                    <span class="titleCar"> Ferrari SF90 Stradale</span>
+                </article>
+            </div>
+            <div>
+                <img src="pictur-cars/lamborghini-revuleto.jpg" alt=""/>
+                <article>
+                    <span class="titleCar"> Lamborghini Revuleto </span>
+                </article>
+            </div>
+            <div>
+                <img src="pictur-cars/aston-martin-valkyrie.jpg" alt=""/>           
+                <article>
+                    <span class="titleCar"> Aston Martin Valkyrie </span>
+                </article>
+            </div>
+            <div>
+                <img src="pictur-cars/porsche-918.jpg" alt=""/>
+                <article>
+                    <span class="titleCar"> Porsche 918 Spyder</span>
+                </article>
+            </div>
+            <div>
+                <img src="pictur-cars/pagani-huayra-R.jpg" alt=""/>
+                <article>
+                    <span class="titleCar">Pagani Utopai </span>
+                </article>
+            </div>
+            <div>
+                <img src="pictur-cars/rimac-nevera.jpg" alt=""/>
+                <article>
+                    <span class="titleCar"> Koenigsegg Jesko Absolut</span>
+                </article>
+            </div>
+            <div>
+                <img src="pictur-cars/chevrolet-corvette-z06.jpg" alt=""/>
+                <article>
+                    <span class="titleCar"></span>
+                </article>
+            </div>
+            <div>
+                <img src="pictur-cars/lotus-Evija.jpg" alt=""/>
+                <article>
+                    <span class="titleCar"></span>
+                </article>
+            </div>
+            <div>
+                <img src="pictur-cars/mercedes-AMG-ONE.jpg" alt=""/>
+                <article>
+                    <span class="titleCar"></span>
+                </article>
+            </div>       
+        </section> 
+        <script>
+            function checkage(){
+            let userEn = prompt("Enter your age please :");
+            if (userEn >=50) 
+            document.getElementById("title").innerHTML=" not your kind";
+             else if (userEn >=20) 
+            document.getElementById("title").innerHTML="You are in yor place" ;
+            }
+        </script>  
+    </body>
+</html>

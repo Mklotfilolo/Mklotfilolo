@@ -1,0 +1,105 @@
+body {
+     background-color:#EBEAE5;
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     justify-content:center;
+     gap:10px;
+}
+header{
+height: auto;
+width: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.title-h {
+width:100%;
+align-content: center;
+align-items:center;
+justify-content:center;
+text-align: center;
+ margin:20px;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ font-size:1.9em;
+}
+button{
+    height: auto;
+    width:60px;
+}
+#title {
+    margin: 20px;
+}
+/*.info-car { 
+background: #96BF8A;  
+display:grid;
+overflow:hidden;
+grid-template-columns:repeat(3,1fr);
+align-content:center;
+row-gap: 10px;
+column-gap: 10px;
+margin:5px;
+border-radius:20px;
+padding:10px;
+}*/
+@media  (min-width:1px) {
+    .info-car { 
+        background: #96BF8A;  
+        display:grid;
+        overflow:hidden;
+        grid-template-columns:repeat(1,1fr);
+        align-content:center;
+        row-gap: 10px;
+        column-gap: 10px;
+        margin:5px;
+        border-radius:20px;
+        padding:10px;
+        }
+ } 
+ @media  (min-width:401px) {
+        .info-car { 
+            background: #96BF8A;  
+            display:grid;
+            overflow:hidden;
+            grid-template-columns:repeat(3,1fr);
+            align-content:center;
+            row-gap: 10px;
+            column-gap: 10px;
+            margin:5px;
+            border-radius:20px;
+            padding:10px;
+            }
+    }   
+
+div {
+margin-top:20px;
+border-radius:42px 42px 42px 42px /30px 30px 30px 30px ;
+box-shadow:2px 4px 5px;
+transform: scale(1);
+transition: transform 0.5s;
+overflow: hidden;
+display:flex;
+width:1fr;
+/*align-items:center;*/
+justify-content:left;
+transition:all 0.3s ease-in;
+}
+img {
+height:auto;
+width:240px;
+justify-content:left;
+}
+.info-car div:hover{
+transform: scale(1.05);
+cursor:pointer;
+}
+.info-car:has(div:hover) div:not(:hover) {
+filter:blur(3px);
+transform: scale(0.94);
+opacity:0.6;
+}
+.titleCar {
+    display: block;
+
+    margin: 4px 0px 0px 7px;
+}
